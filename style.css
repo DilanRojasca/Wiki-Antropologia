@@ -1,0 +1,144 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  /* Photo section */
+  #photo {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #photo img {
+    max-width: 35%;
+    height: auto;
+  }
+  
+  /* Video section */
+  #video {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #video video {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Text section */
+  #text {
+    background-color: #fff;
+    padding: 20px;
+    text-align: justify;
+  }
+  
+  #text h2 {
+    color: #333;
+  }
+  
+  #text p {
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Audio section */
+  #audio {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #audio audio {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Custom styles */
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  header h1 {
+    flex-basis: 100%;
+  }
+  
+  header h2 {
+    flex-basis: 100%;
+    font-size: 1.2em;
+    margin-top: 5px;
+  }
+  
+  section {
+    margin: 20px 0;
+  }
+  
+  section p {
+    margin: 10px 0;
+  }
+  
+  section video {
+    margin-bottom: 10px;
+  }
+  
+  section#text {
+    padding: 40px;
+  }
+  
+  section#text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  section#text p {
+    font-size: 1.1em;
+  }
+  
+  section#photo,
+  section#video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  section#photo img,
+  section#video video {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+  }
+  
+  section#audio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  section#audio audio {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+  }
